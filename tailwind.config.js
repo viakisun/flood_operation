@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     "./public/index.html",
-    "./FloodDroneMainHub/**/*.{js,jsx,ts,tsx}",
+    "./src/FloodDroneMainHub/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
