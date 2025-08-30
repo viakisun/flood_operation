@@ -231,6 +231,6 @@ export const activityChartData = [
 export const quickActions = [
   { id: 'emergency-stop', label: 'Emergency Stop All', icon: PowerOff, requiresAdmin: true },
   { id: 'start-patrol', label: 'Initiate Standard Patrol', icon: PlayCircle, requiresAdmin: false },
-  { id:_code: 'run-diagnostics', label: 'Run System Diagnostics', icon: Bot, requiresAdmin: true },
+  { id: 'run-diagnostics', label: 'Run System Diagnostics', icon: Bot, requiresAdmin: true },
   { id: 'generate-report', label: 'Generate Daily Report', icon: FileText, requiresAdmin: false },
 ];
