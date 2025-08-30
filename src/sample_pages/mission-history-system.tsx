@@ -1001,7 +1001,7 @@ const MissionHistorySystem: React.FC = () => {
                           color: 'white',
                           fontSize: '11px'
                         }}
-                        formatter={(value) => [`${value.toFixed(1)}%`, '성공률']}
+                        formatter={(value) => [`${Number(value).toFixed(1)}%`, '성공률']}
                       />
                       <Line 
                         type="monotone" 
