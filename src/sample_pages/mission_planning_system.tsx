@@ -525,7 +525,7 @@ const MissionPlanningSystem: React.FC = () => {
                 aiOptimization.is_running ? 'text-gray-400' : 'text-black'
               }`}
               style={{ 
-                backgroundColor: aiOptimization.is_running ? theme.colors.neutral[600] : theme.colors.accent.purple 
+                backgroundColor: aiOptimization.is_running ? theme.colors.neutral[500] : theme.colors.accent.purple
               }}
             >
               <Brain className="w-3 h-3" />
